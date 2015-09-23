@@ -2,6 +2,27 @@
 Set of plugins for sublime text 3 running in linux distributions
 Pre-installed some good plugins to use in real-life. This repository is best suitable for developing applications using Python, JavaScript with VCS running in system.
 
+# Install these things first
+
+## VCS
+Debian based (Ubuntu, Mint, Elementary, Linux Deepin):
+```bash
+sudo apt-get install --yes subversion git
+```
+
+Redhat based (Fedora, CentOS, Redhat, RHEL):
+```bash
+sudo yum install subversion git
+```
+
+## NodeJS for JSHint
+Using repo from Node Source is recommended.
+```bash
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
+sudo apt-get install -y nodejs
+```
+
 # Pre-installed plugins (major)
 - Sublime Linter
 - Sublime Code Intel
@@ -29,6 +50,7 @@ Pre-installed some good plugins to use in real-life. This repository is best sui
 - Emmet
 - Sublimerge Pro
 - VN IME
+- SublimeREPL
 - Spacegrey theme/colorscheme
 - Material theme/colorscheme
 - and alot more...
