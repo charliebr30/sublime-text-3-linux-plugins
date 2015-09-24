@@ -1,5 +1,6 @@
 # Sublime Text 3 - Plugins (for Linux)
-Set of plugins for sublime text 3 running in linux distributions
+Set of plugins for sublime text 3 running in linux distributions.
+
 Pre-installed some good plugins to use in real-life. This repository is best suitable for developing applications using Python, JavaScript with VCS running in system.
 
 # Install these things first
