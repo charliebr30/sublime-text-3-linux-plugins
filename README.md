@@ -23,6 +23,11 @@ curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
+## Install
+```bash
+git clone https://github.com/charliebr30/sublime-text-3-linux-plugins.git ~/.config/sublime-text-3
+```
+
 # Pre-installed plugins (major)
 - Sublime Linter
 - Sublime Code Intel
@@ -35,8 +40,8 @@ sudo apt-get install -y nodejs
 - Indent XML
 - HTML, CSS, JS Beautify
 - Lorem Ipsum
-- Seti_UI
-- Seti_UX
+- Seti\_UI
+- Seti\_UX
 - SFTP
 - SVN (subversion is required)
 - Git (git is required)
