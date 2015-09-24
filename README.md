@@ -17,10 +17,11 @@ sudo yum install subversion git
 ```
 
 ## NodeJS for JSHint
-Using repo from Node Source is recommended.
+Using repo from [Node Source](https://github.com/nodesource/distributions) is recommended.
+
 ```bash
 # Using Ubuntu
-curl -sL https://deb.nodesource.com/setup_0.12 | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
