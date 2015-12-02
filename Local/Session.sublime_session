@@ -26,17 +26,6 @@
 			},
 			"buffers":
 			[
-				{
-					"contents": "Package Control Messages\n========================\n\nAnaconda\n--------\n\n  Changes in 1.4.15\n  =================\n  \n  ## Fixes:\n      - Removed unused error class in PyFlakes, resolves #397\n  \n  For more detailed information about those changes run git log v1.4.14..v1.4.15 on git repository\n\n  Changes in 1.4.14\n  =================\n  \n  ## Changes:\n      - Updated PyFlakes to version 1.0.0 to support Python 3.5 syntax\n      - Fixed vagrant_server branch, contribution made by @tanenbaum\n  \n  For more detailed information about those changes run git log v1.4.13..v1.4.14 on git repository\n\n  Changes in 1.4.13\n  =================\n  \n  ## Changes:\n      - When the cursor is in a test case class definition line, command \"run test under the cursor\" runs all tests in this test case\n      - Removed key bindings that conlfict with vintage mode\n  \n  For more detailed information about those changes run git log v1.4.12..v1.4.13 on git repository\n\n\nAnaconda\n--------\n\n  Changes in 1.4.15\n  =================\n  \n  ## Fixes:\n      - Removed unused error class in PyFlakes, resolves #397\n  \n  For more detailed information about those changes run git log v1.4.14..v1.4.15 on git repository\n\n  Changes in 1.4.14\n  =================\n  \n  ## Changes:\n      - Updated PyFlakes to version 1.0.0 to support Python 3.5 syntax\n      - Fixed vagrant_server branch, contribution made by @tanenbaum\n  \n  For more detailed information about those changes run git log v1.4.13..v1.4.14 on git repository\n\n  Changes in 1.4.13\n  =================\n  \n  ## Changes:\n      - When the cursor is in a test case class definition line, command \"run test under the cursor\" runs all tests in this test case\n      - Removed key bindings that conlfict with vintage mode\n  \n  For more detailed information about those changes run git log v1.4.12..v1.4.13 on git repository\n\n\nAutoPEP8\n--------\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n\nAutoPEP8\n--------\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n  AutoPEP8 1.3.3 (2015/10/27):\n      * fix issue with double 'on-save' formatting in ST3.\n  \n  AutoPEP8 1.3.2 (2015/10/18):\n      * fix issue with user config on windows platform.\n  \n  AutoPEP8 1.3.1 (2015/09/27):\n      + new option 'debug' was added\n  \n  AutoPEP8 1.3 (2015/05/08):\n      * autopep8 1.1 -> 1.1.1\n      * pep8 1.5.7 -> 1.6.2\n      * fixed issue with white spaces in autopep8 option values(#35)\n      * fixed grammar in error messages(#34)\n  \n  AutoPEP8 1.2 (2015/02/01):\n      * autopep8 1.0.4 -> 1.1\n      * changed sidebar and context menu layout\n      * fixed issue with formating in case all tabs are closed(#30)\n      * fixed issue with encoding(#31)\n      - Option \"file_menu_behaviour\" was removed\n  \n  AutoPEP8 1.1.3 (2014/10/12):\n      * autopep8 1.0.3 -> 1.0.4\n  \n  AutoPEP8 1.1.2 (2014/07/01):\n      * fixed issue(#28): ignore selected block during autosave process.\n      * autopep8 1.0.2 -> 1.0.3\n  \n  AutoPEP8 1.1.1 (2014/06/25):\n      * fixed issue(#27): plugin doesn't work properly in ST2.\n  \n  AutoPEP8 1.1 (2014/06/10):\n      - options \"max-threads\" and \"show_empty_panel\" were removed;\n      + added new option \"indent-size\" to specify number of spaces per indent level;\n      * option 'show_panel' was renamed to 'show_error_panel';\n      * autopep8 -> 1.0.2;\n      * pep8 -> 1.5.7;\n      * fixed issue with autosave mode;\n  \n  AutoPEP8 1.0.6 (2013/12/24):\n      + added option 'avoid_new_line_in_select_mode' to remove last empty line in select mode\n  \n  AutoPEP8 1.0.5 (2013/11/17):\n      * autopep8 -> 0.9.6\n      - \"verbose\" option was removed from the settings\n  \n  AutoPEP8 1.0.4 (2013/08/04):\n  + different behaviour for right click context menu (issue #22)\n      Option \"file_menu_behaviour\":\n          \"always\": menu appears always, even folder doesn't contain *.py files\n          \"never\":  menu never appears\n          \"ifneed\": default value, menu appears only if path or childs contain *.py file\n      Option \"file_menu_search_depth\" (default 3) define max search depth for \"ifneed\" mode\n  * pep8 -> 1.4.6\n  * autopep8 -> 0.9.2\n  \n  AutoPEP8 1.0.3 (2013/06/07):\n  * fix issue with Win7 in ST3\n  \n  AutoPEP8 1.0:\n  + support ST3\n  + support per-project settings (https://github.com/wistful/SublimeAutoPEP8/blob/master/Readme.md#per-project-settings)\n  + show unfixed errors in the output panel\n  + syntax can be provided by settings (`syntax_list` option)\n  + use threads to avoid freezing sublime\n  * fix issue with `format_on_save` option\n  + added `aggressive` option\n  * change default values of `verbose` and `ignore` options\n  \n  AutoPEP8 0.9.3:\n  + support ST3\n  * change list options in the config\n  \n  AutoPEP8 0.9.2:\n  + Initial support for ST3. (thanks dnatag)\n  * update pep8.py to version 1.4.6a0\n  * update autopep8.py to version 0.8.7\n  \n  AutoPEP8 0.9.1:\n  * fix conflicts with SublimeLinter plugin\n  \n  AutoPEP8 0.9:\n  * use autopep8.py module instead of spawn the process\n  + improve speed of formatting\n  \n  AutoPEP8 0.8:\n  * fixed issue with exception while removing open file\n  * update pep8.py to version 1.4.2a0\n  * update autopep8.py to version 0.8.6\n  \n  AutoPEP8 0.7:\n  + autoformat on save\n  + sidebar menu\n  + autoformat/preview selected text\n  - cursor and scroll position are lost after \"Format Code\"\n  - encoding issue\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.10.0\n  \n  ## New\n  \n  - Add bh_tag settings to settings dropdown\n  - Add more Python languages\n  - Add support for JSP\n  - Better python triple quote support string support\n  - Experimental block cursor mode (read docs for more info)\n  \n  ## Fixes\n  \n  - Fix backref's escaping of extended backrefs\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.10.0\n  \n  ## New\n  \n  - Add bh_tag settings to settings dropdown\n  - Add more Python languages\n  - Add support for JSP\n  - Better python triple quote support string support\n  - Experimental block cursor mode (read docs for more info)\n  \n  ## Fixes\n  \n  - Fix backref's escaping of extended backrefs\n\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.9.0\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - New contrast mode ( \"material_theme_contrast_mode\": true )\n    - Minor UI fixes\n  \n  #### COLOR SCHEME\n  \n    - Minor color scheme improvements\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.9\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - Minor UI improvements for the treeview.\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.8\n  ********************************************************************************\n  \n  \n  #### COLOR SCHEME\n    \n    - Color highlight improvements (python, js, less, scss/sass)\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.7\n  ********************************************************************************\n  \n  #### UI IMPROVEMENTS\n  \n    - Minor UI improvements\n    - Add new setting to set the tabs width to auto (the max-width will remain) (\"material_theme_tabs_autowidth\": true). NOTE: This setting may require restart.\n  \n  #### COLOR SCHEME\n    \n    - Color highlight improvements\n\n\nPlainTasks\n----------\n\n  Thank you for installing PlainTasks.\n  \n  For quick start you probably would like to go through a short tutorial:\n  Preferences → Package Settings → PlainTasks → Tutorial\n\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.9.0\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - New contrast mode ( \"material_theme_contrast_mode\": true )\n    - Minor UI fixes\n  \n  #### COLOR SCHEME\n  \n    - Minor color scheme improvements\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.9\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - Minor UI improvements for the treeview.\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.8\n  ********************************************************************************\n  \n  \n  #### COLOR SCHEME\n    \n    - Color highlight improvements (python, js, less, scss/sass)\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.8.7\n  ********************************************************************************\n  \n  #### UI IMPROVEMENTS\n  \n    - Minor UI improvements\n    - Add new setting to set the tabs width to auto (the max-width will remain) (\"material_theme_tabs_autowidth\": true). NOTE: This setting may require restart.\n  \n  #### COLOR SCHEME\n    \n    - Color highlight improvements\n\n\nSFTP\n----\n\n  Sublime SFTP 1.14.0 Changelog:\n  \n  \n  I wanted to acknowledge the extended length of time between this update and the\n  last release of Sublime SFTP. During that period, my time has largely been\n  focused on a low-level rewrite of the encryption functionality used for FTPS\n  connections.\n  \n  This release includes quite a number of bug fixes, all based on reports that\n  users have sent in. Please continue to send in debug logs, and look forward to\n  more releases in the near future.\n  \n  \n  Bug Fixes\n  ---------\n  \n   - Improved handling of timeouts and reconnections using the SFTP protocol on\n     OS X and Linux\n  \n   - A new version of psftp.exe is bundled for Windows users, using version 0.65\n     as a base, resolving incompatibility with newer version of OpenSSL servers.\n     The executable is cryptographically signed.\n  \n   - The custom SSL module for Linux was replaced with Package Control SSL module\n     dependency\n  \n   - Allow uploading an image while viewing its preview - previously unsupported\n     due to bugs in the Sublime Text 3 API\n  \n   - \"Link to file server lost\" error now causes automatic reconnection instead\n     of a disconnection\n  \n   - Fixed a bug with running the \"Upload VCS Changed Files\" command on ST3\n  \n   - Resolved an issue where it was not possible to upload files starting with\n     a \"-\" over the SFTP protocol\n  \n   - Resolved \"warning: mnemonic b not found in menu caption SFTP/FTP\"\n  \n   - Improved handling of encoding errors in some situations\n  \n   - Now handles more 5xx FTP error codes\n  \n   - Resolved an occasional \"Folder Not Found\" error when using the SFTP protocol\n  \n   - Added handling of situations where the local directory is deleted out from\n     under an open connection\n  \n   - \"Map to Remote\" context menu now works properly from an editor pane\n  \n   - Fixed a bug dealing with parsing dates from before 1970\n  \n  \n  Known Issues\n  ------------\n  \n   - FTPS connections to servers requiring session reuse between the control and\n     data connections will fail. This is due to limitation of the SSL module that\n     is part of Python, which is what the Sublime Text API is built upon.\n  \n     Ongoing development work has been focused on building a cross-platform TLS\n     library for Python to overcome this limitation. However, there is no\n     concrete ETA for completion.\n\n\nTodoReview\n----------\n\n  TodoReview 3.0.7\n  --------------------\n  \n  Documentation is at https://github.com/jonathandelgado/SublimeTodoReview\n  \n  This is a maintenance release to resolve issues occurring in the latest ST3 build. There is an issue with the SublimeText setting API, causing issues when a TodoReview tab was previously open then running the command again. Additionally, this adds the ability to have empty notes, which has been stuck in the master branch for a while.\n  \n  I also want to quickly address the state of SublimeText. As most of you are aware, ST3 development has seemingly stopped, again. There are a lot of glitches that people report to the TodoReview GitHub that simply cannot be fixed due to upstream API issues. The Windows, Linux and Mac distributions all seem to have quirks causing crashes and there is seemingly nothing we can do about it. I know a lot of developers are moving away from Sublime and moving to new, actively developed, text editors, as have I. Accordingly, this project is no longer in active development. Patches still may occur time-to-time, but no new features will be implemented. Thank you to everyone who has used this plugin or has contributed to its development.\n  \n  \n  #3.0.7 - 10/30/15\n  - Doc: No longer in active development\n  - Doc: Fixed a typo (Thanks @nunoh)\n  - Fix: Removed a double import of sublime (Thanks @mmattes)\n  - Add: Allow empty notes (Thanks @Eyenseo)\n  - Fix: Prevent ST3 Glitch Crash (#131, #133) (Thanks @nsfmc)\n  - Refactor: Cached encoding setting for a speed improvement\n\n\nVintageous\n----------\n\n  ==============================================================================\n  Vintageous 4.0.4\n  ==============================================================================\n  \n  *** Follow important announcements on Twitter: @VintageousS3 ***\n  \n  This version includes multiple fixes and polish.\n  \n  Thanks!\n  Guillermo\n  \n  \n  CHANGES\n  -------\n  \n    - fixes #1000 - beter eol handling when redoing\n    - tweak g_\n    - fix #684 - improve g_ in visual mode\n    - fix #683, fix #682 - improve d_\n    - fix #831 - improve bracket text object\n  \n  \n  FOUND BUGS?\n  -----------\n  \n  Please report them here:\n  \n      https://github.com/guillermooo/Vintageous/issues\n  \n  \n  SUPPORT VINTAGEOUS\n  ------------------\n  \n  Is Vintageous worth your time? Developing Vintageous is hard work. If you use\n  it often, please consider donating and make it worth my time too.\n  \n      PayPal: http://www.pledgie.com/campaigns/19122\n      Gittip: https://www.gratipay.com/guillermooo/\n  \n  I'm the creator and main author of Vintageous, but some generous people have\n  contributed their time and effort as well. See the more active ones here; you\n  may want to show them some gratitude too:\n  \n  https://github.com/guillermooo/Vintageous/graphs/contributors\n  \n  Thanks for reading and for using Vintageous!\n",
-					"settings":
-					{
-						"buffer_size": 30687,
-						"line_ending": "Unix",
-						"name": "Package Control Messages",
-						"read_only": true,
-						"scratch": true
-					}
-				}
 			],
 			"build_system": "Packages/Python/Python.sublime-build",
 			"build_system_choices":
@@ -65,10 +54,26 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 400.0,
-				"last_filter": "up",
+				"height": 101.0,
+				"last_filter": "upgrade",
 				"selected_items":
 				[
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"instal ",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"instll",
+						"Package Control: Install Package"
+					],
 					[
 						"up",
 						"Package Control: Upgrade/Overwrite All Packages"
@@ -90,10 +95,6 @@
 						"Preferences: Settings - User"
 					],
 					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"rem",
 						"Package Control: Remove Package"
 					],
@@ -108,10 +109,6 @@
 					[
 						"preuser",
 						"Preferences: Settings - User"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
 					],
 					[
 						"insta",
@@ -288,6 +285,8 @@
 			},
 			"file_history":
 			[
+				"/usr/lib/python2.7/pprint.py",
+				"/media/psf/Home/Downloads/test.py",
 				"/home/charlie/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
 				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
@@ -314,7 +313,7 @@
 			],
 			"find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"find_in_files":
 			{
@@ -350,99 +349,8 @@
 			"groups":
 			[
 				{
-					"selected": 0,
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 30687,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										945,
-										945
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"auto_indent": false,
-									"bh_regions":
-									[
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content"
-									],
-									"incomplete_sync": null,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_width": 2,
-									"word_wrap": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 620.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
 					]
 				},
 				{
@@ -453,7 +361,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 28.0
+				"height": 29.0
 			},
 			"input":
 			{
@@ -502,11 +410,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,1,0,0,0,0,0,0,0,1920,1200",
+			"position": "0,1,0,0,0,0,0,0,0,1680,1050",
 			"project": "",
 			"replace":
 			{
-				"height": 52.0
+				"height": 54.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -529,12 +437,12 @@
 			},
 			"select_symbol":
 			{
-				"height": 0.0,
+				"height": 400.0,
 				"last_filter": "",
 				"selected_items":
 				[
 				],
-				"width": 0.0
+				"width": 400.0
 			},
 			"selected_group": 0,
 			"settings":
