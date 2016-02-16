@@ -1,1 +1,1 @@
-{"url": "https://github.com/victorporof/Sublime-JSHint", "platforms": ["*"], "description": "JSHint Gutter for Sublime Text 2 and 3 via node.js", "version": "2015.03.18.14.31.56", "sublime_text": "*", "dependencies": []}
+{"description": "JSHint Gutter for Sublime Text 2 and 3 via node.js", "dependencies": [], "platforms": ["*"], "url": "https://github.com/victorporof/Sublime-JSHint", "version": "2016.02.14.16.32.17", "sublime_text": "*"}

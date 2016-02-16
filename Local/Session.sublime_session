@@ -1,18 +1,18 @@
 {
 	"folder_history":
 	[
+		"/home/charlie/Downloads",
 		"/home/tovin07/Documents",
 		"/home/tovin07",
 		"/media/psf/Home/Documents"
 	],
-	"last_version": 3083,
-	"last_window_id": 1,
+	"last_version": 3103,
+	"last_window_id": 2,
 	"log_indexing": false,
 	"settings":
 	{
-	},
-	"windows":
-	[
+		"new_window_height": 0.0,
+		"new_window_settings":
 		{
 			"auto_complete":
 			{
@@ -24,21 +24,6 @@
 					]
 				]
 			},
-			"buffers":
-			[
-				{
-					"contents": "Package Control Messages\n========================\n\nMarkdown Preview\n----------------\n\n  Changes in Markdown Preview\n  ===========================\n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * Multimarkdown specific settings have been removed.  Multimarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for Github.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *Github Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changlog file for both developpers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nMarkdown Preview\n----------------\n\n  Changes in Markdown Preview\n  ===========================\n  ## 1.3.0\n  \n  * Now supports any markdown parser through a generalized method.  Now you can map a binary to parser name via `markdown_binary_map`.  Then use the parser name in `enabled_parsers` to use it.\n  * Multimarkdown specific settings have been removed.  Multimarkdown should now be configured via `markdown_binary_map` and `enabled_parsers`.\n  * Upgraded to Python Markdown 2.6.4.\n  * Removed internal PyYaml and Pygments.  Markdown Preview now uses Package Control dependencies to obtain PyYaml and Pygments.\n  * Update kbd CSS for Github.\n  \n  ## 1.0.3\n  \n  * The `messages.json` should OK for this time.\n  \n  ## 1.0.2\n  \n  * Fixes messages.json and changelog versions.\n  \n  ## 1.0.1\n  \n  * Removed markdown2 parser for its not well maintained and buggy.\n  * Make Python Markdown parser as default.\n  * Split the preview commands for *Python Markdown* parser and *Github Flavored Markdown* parser.\n  * Add markdown file build support, build parser are config via the origin `\"parser\"` settings.\n  * Add this changlog file for both developpers and users.\n  * Add messages.json which make display of `README.md` and `CHANGES.md`\n  * Try use `Markdown Extended.tmLanguage` for cheat sheet if you installed `Markdown Extended`.\n  \n  ## 1.0.0\n  \n  * Support for ST3.\n  * Added Python Markdown parser.\n  * CSS search first in markdown file directory and the the build-in.\n\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.9.7\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - New tab animation on tab hover\n    - Update JSP file icon\n    - Add stata file icon\n    - Update project tree spacing and assets\n    - Tooltip now match the active accent color\n    - Add some hover transitions on tabset controllers\n  \n  #### COLOR SCHEME\n  \n    - Fix variables color. Thanks to @alexbeletsky\n    - Improve babel JS color highlight.\n    - Improve general highlighting color. Thanks to @alexbeletsky\n\n\nMaterial Theme\n--------------\n\n  Material Theme for Sublime Text 3\n  https://github.com/equinusocio/material-theme\n  \n  \n  Version 1.9.7\n  ********************************************************************************\n  \n  #### UI THEME\n  \n    - New tab animation on tab hover\n    - Update JSP file icon\n    - Add stata file icon\n    - Update project tree spacing and assets\n    - Tooltip now match the active accent color\n    - Add some hover transitions on tabset controllers\n  \n  #### COLOR SCHEME\n  \n    - Fix variables color. Thanks to @alexbeletsky\n    - Improve babel JS color highlight.\n    - Improve general highlighting color. Thanks to @alexbeletsky\n\n\nTheme - amCoder\n---------------\n\n  Thanks for installing amCoder!\n  \n  \n  How to Activate\n  ===============\n  \n  Activate the UI theme and color scheme by modifying your user preferences file, which you can find using the menu item `Sublime Text -> Preferences -> Settings - User` (⌘+, on Mac).\n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n  \n  \n  Theme Settings\n  --------------\n  \n  Default version:\n  \n  ```json\n  {\n    \"theme\": \"amCoder.sublime-theme\"\n  }\n  ```\n  \n  Classic version:\n  \n  ```json\n  {\n    \"theme\": \"amCoder Classic.sublime-theme\"\n  }\n  ```\n  \n  Color-Scheme\n  ------------\n  \n  amCoder looks best with these modified versions of Monokai:\n  \n  Default version:\n  \n  ```json\n  {\n    \"color_scheme\": \"Packages/Theme - amCoder/amCoder.tmTheme\"\n  }\n  ```\n  \n  Default (Bright) version:\n  \n  ```json\n  {\n    \"color_scheme\": \"Packages/Theme - amCoder/amCoder (Bright).tmTheme\"\n  }\n  ```\n  \n  Classic version:\n  \n  ```json\n  {\n    \"color_scheme\": \"Packages/Theme - amCoder/amCoder Classic.tmTheme\"\n  }\n  ```\n  \n  Classic (Bright) version:\n  \n  ```json\n  {\n    \"color_scheme\": \"Packages/Theme - amCoder/amCoder Classic (Bright).tmTheme\"\n  }\n  ```\n  \n  *Note: Don't forget to restart Sublime Text after activating the theme.*\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.11.0\n  \n  ## New\n  \n  - Add support for Lua\n  - Rework parts of the bh_plugin API\n  \n  ## Fixes\n  \n  - Document fixes\n  - Ruby bracket improvements\n\n\nBracketHighlighter\n------------------\n\n  # BracketHighlighter 2.11.0\n  \n  ## New\n  \n  - Add support for Lua\n  - Rework parts of the bh_plugin API\n  \n  ## Fixes\n  \n  - Document fixes\n  - Ruby bracket improvements\n",
-					"settings":
-					{
-						"buffer_size": 6026,
-						"line_ending": "Unix",
-						"name": "Package Control Messages",
-						"read_only": true,
-						"scratch": true
-					}
-				}
-			],
-			"build_system": "Packages/Python/Python.sublime-build",
 			"build_system_choices":
 			[
 				[
@@ -65,21 +50,41 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 101.0,
-				"last_filter": "upgrade",
+				"height": 78.0,
+				"last_filter": "upgrad",
 				"selected_items":
 				[
 					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
-						"upgra",
+						"upgrad",
 						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"install",
 						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"preuse",
+						"Preferences: Settings - User"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"up",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"upgra",
+						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"instal ",
@@ -90,10 +95,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"up",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"disa",
 						"Package Control: Disable Package"
 					],
@@ -102,15 +103,7 @@
 						"Package Control: Enable Package"
 					],
 					[
-						"preuse",
-						"Preferences: Settings - User"
-					],
-					[
 						"rem",
-						"Package Control: Remove Package"
-					],
-					[
-						"remove",
 						"Package Control: Remove Package"
 					],
 					[
@@ -152,10 +145,6 @@
 					[
 						"proad",
 						"Project: Add Folder"
-					],
-					[
-						"install ",
-						"Package Control: Install Package"
 					],
 					[
 						"list",
@@ -218,10 +207,6 @@
 						"Package Control: Enable Package"
 					],
 					[
-						"upgrad",
-						"Package Control: Upgrade Package"
-					],
-					[
 						"vni",
 						"View: Toggle Minimap"
 					],
@@ -274,7 +259,7 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 538.0
+				"width": 530.0
 			},
 			"console":
 			{
@@ -357,105 +342,426 @@
 				"whole_word": false,
 				"wrap": true
 			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 30.0
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 378.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.sftp":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 400.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 400.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 217.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"print",
+						"print〔function〕"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "Packages/Python/Python.sublime-build",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/Python/Python.sublime-build",
+							""
+						],
+						[
+							"Packages/Python/Python.sublime-build",
+							"Syntax Check"
+						],
+						[
+							"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Python/Python.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 342.0,
+				"last_filter": "preuse",
+				"selected_items":
+				[
+					[
+						"preuse",
+						"Preferences: Settings - User"
+					],
+					[
+						"browse",
+						"Preferences: Browse Packages"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"proadd",
+						"Project: Add Folder"
+					],
+					[
+						"bro",
+						"Preferences: Browse Packages"
+					],
+					[
+						"upgrad",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"up",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"upgra",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"instal ",
+						"Package Control: Install Package"
+					],
+					[
+						"instll",
+						"Package Control: Install Package"
+					],
+					[
+						"disa",
+						"Package Control: Disable Package"
+					],
+					[
+						"ena",
+						"Package Control: Enable Package"
+					],
+					[
+						"rem",
+						"Package Control: Remove Package"
+					],
+					[
+						"dis",
+						"Package Control: Disable Package"
+					],
+					[
+						"preuser",
+						"Preferences: Settings - User"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"pro",
+						"Project: Refresh Folders"
+					],
+					[
+						"dias",
+						"Package Control: Disable Package"
+					],
+					[
+						"upg",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"proad",
+						"Project: Add Folder"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"enable",
+						"Package Control: Enable Package"
+					],
+					[
+						"disab",
+						"Package Control: Disable Package"
+					],
+					[
+						"set pytho",
+						"Set Syntax: Python"
+					],
+					[
+						"python",
+						"Python Breakpoints: Goto"
+					],
+					[
+						"autodoc",
+						"AutoDocstring: Current"
+					],
+					[
+						"install a",
+						"Package Control: Install Package"
+					],
+					[
+						"listpa",
+						"Package Control: List Packages"
+					],
+					[
+						"lis",
+						"Package Control: List Packages"
+					],
+					[
+						"pre",
+						"Preferences: Settings - User"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"ipytho",
+						"SublimeREPL: Python - IPython"
+					],
+					[
+						"ipyre",
+						"SublimeREPL: Python - PDB current file"
+					],
+					[
+						"upgar",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"enab",
+						"Package Control: Enable Package"
+					],
+					[
+						"vni",
+						"View: Toggle Minimap"
+					],
+					[
+						"mini",
+						"Snippet: bs3-mini-button"
+					],
+					[
+						"vn im",
+						"View: Toggle Minimap"
+					],
+					[
+						"svn",
+						"Preferences: SVN Settings"
+					],
+					[
+						"listpac",
+						"Package Control: List Packages"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"package",
+						"Package Control: List Packages"
+					],
+					[
+						"procl",
+						"Set Syntax: Procfile"
+					],
+					[
+						"brow",
+						"Preferences: Browse Packages"
+					],
+					[
+						"pro ref",
+						"Project: Refresh Folders"
+					],
+					[
+						"logsta",
+						"Set Syntax: Logstash"
+					],
+					[
+						"brw",
+						"Preferences: Browse Packages"
+					],
+					[
+						"instl",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 512.0
+			},
+			"console":
+			{
+				"height": 231.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
+					" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": true,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/charlie/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/charlie/Downloads/get-pip.py",
+				"/usr/lib/python2.7/pprint.py",
+				"/media/psf/Home/Downloads/test.py",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Distraction Free.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences_Seti.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/AngularJS/AngularJS-completions.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/VcsGutter.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/VCS Gutter/VcsGutter.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Terminal (Linux).sublime-settings",
+				"/media/psf/Home/Documents/projects/angular/Gruntfile.js",
+				"/media/psf/Home/Documents/projects/angular/bower.json",
+				"/media/psf/Home/Documents/graduation/README.md",
+				"/home/tovin07/Documents/test.py",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/AutoDocstring.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+				"/media/psf/Home/Downloads/jquery-2.1.4.js",
+				"/home/tovin07/.config/sublime-text-3/Packages/User/Emmet.sublime-settings",
+				"/home/tovin07/.config/sublime-text-3/Packages/SVN/SVN.sublime-settings",
+				"/media/psf/Home/Documents/visc/log/logstash.conf",
+				"/media/psf/Home/Documents/visc/log/win32eventlog.conf",
+				"/home/tovin07/Documents/log/logstash.conf",
+				"/home/tovin07/.config/sublime-text-3/.gitignore",
+				"/home/tovin07/.bashrc"
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"group",
+					"tree_",
+					"small_padd",
+					"bold",
+					"label",
+					"orange",
+					"tab_font",
+					"small",
+					"Light",
+					"light",
+					"Light",
+					"localhost",
+					"192.168.1.81"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
 			"groups":
 			[
-				{
-					"selected": 0,
-					"sheets":
-					[
-						{
-							"buffer": 0,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6026,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										535,
-										535
-									]
-								],
-								"settings":
-								{
-									"BracketHighlighterBusy": false,
-									"auto_indent": false,
-									"bh_regions":
-									[
-										"bh_double_quote",
-										"bh_double_quote_center",
-										"bh_double_quote_open",
-										"bh_double_quote_close",
-										"bh_double_quote_content",
-										"bh_single_quote",
-										"bh_single_quote_center",
-										"bh_single_quote_open",
-										"bh_single_quote_close",
-										"bh_single_quote_content",
-										"bh_c_define",
-										"bh_c_define_center",
-										"bh_c_define_open",
-										"bh_c_define_close",
-										"bh_c_define_content",
-										"bh_regex",
-										"bh_regex_center",
-										"bh_regex_open",
-										"bh_regex_close",
-										"bh_regex_content",
-										"bh_default",
-										"bh_default_center",
-										"bh_default_open",
-										"bh_default_close",
-										"bh_default_content",
-										"bh_square",
-										"bh_square_center",
-										"bh_square_open",
-										"bh_square_close",
-										"bh_square_content",
-										"bh_unmatched",
-										"bh_unmatched_center",
-										"bh_unmatched_open",
-										"bh_unmatched_close",
-										"bh_unmatched_content",
-										"bh_round",
-										"bh_round_center",
-										"bh_round_open",
-										"bh_round_close",
-										"bh_round_content",
-										"bh_tag",
-										"bh_tag_center",
-										"bh_tag_open",
-										"bh_tag_close",
-										"bh_tag_content",
-										"bh_angle",
-										"bh_angle_center",
-										"bh_angle_open",
-										"bh_angle_close",
-										"bh_angle_content",
-										"bh_curly",
-										"bh_curly_center",
-										"bh_curly_open",
-										"bh_curly_close",
-										"bh_curly_content"
-									],
-									"color_scheme": "Packages/Seti_UI/Scheme/Seti.tmTheme",
-									"incomplete_sync": null,
-									"syntax": "Packages/Text/Plain text.tmLanguage",
-									"tab_width": 2,
-									"word_wrap": true
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"type": "text"
-						}
-					]
-				},
 				{
 					"sheets":
 					[
@@ -479,18 +785,11 @@
 						0,
 						1,
 						1
-					],
-					[
-						1,
-						0,
-						2,
-						1
 					]
 				],
 				"cols":
 				[
 					0.0,
-					0.5,
 					1.0
 				],
 				"rows":
