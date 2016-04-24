@@ -451,10 +451,34 @@
 			"build_varint": "",
 			"command_palette":
 			{
-				"height": 342.0,
-				"last_filter": "preuse",
+				"height": 132.0,
+				"last_filter": "upgrad",
 				"selected_items":
 				[
+					[
+						"upgrad",
+						"Package Control: Upgrade Package"
+					],
+					[
+						"upgrade",
+						"Package Control: Upgrade/Overwrite All Packages"
+					],
+					[
+						"preuser",
+						"Preferences: Settings - User"
+					],
+					[
+						"indent",
+						"Indent JSON"
+					],
+					[
+						"preu",
+						"Preferences: Settings - User"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
 					[
 						"preuse",
 						"Preferences: Settings - User"
@@ -468,10 +492,6 @@
 						"Package Control: Install Package"
 					],
 					[
-						"install ",
-						"Package Control: Install Package"
-					],
-					[
 						"proadd",
 						"Project: Add Folder"
 					],
@@ -480,16 +500,8 @@
 						"Preferences: Browse Packages"
 					],
 					[
-						"upgrad",
-						"Package Control: Upgrade/Overwrite All Packages"
-					],
-					[
 						"remove",
 						"Package Control: Remove Package"
-					],
-					[
-						"upgrade",
-						"Package Control: Upgrade/Overwrite All Packages"
 					],
 					[
 						"up",
@@ -522,10 +534,6 @@
 					[
 						"dis",
 						"Package Control: Disable Package"
-					],
-					[
-						"preuser",
-						"Preferences: Settings - User"
 					],
 					[
 						"insta",
@@ -668,13 +676,14 @@
 						"Package Control: Install Package"
 					]
 				],
-				"width": 512.0
+				"width": 575.0
 			},
 			"console":
 			{
 				"height": 231.0,
 				"history":
 				[
+					" import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
 					"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) ",
 					" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
 				]
@@ -719,7 +728,7 @@
 			],
 			"find":
 			{
-				"height": 34.0
+				"height": 58.0
 			},
 			"find_in_files":
 			{
@@ -733,6 +742,8 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"Seti",
+					"seti",
 					"group",
 					"tree_",
 					"small_padd",
@@ -770,7 +781,7 @@
 			],
 			"incremental_find":
 			{
-				"height": 29.0
+				"height": 30.0
 			},
 			"input":
 			{
@@ -816,7 +827,7 @@
 			"project": "",
 			"replace":
 			{
-				"height": 54.0
+				"height": 56.0
 			},
 			"save_all_on_build": true,
 			"select_file":
