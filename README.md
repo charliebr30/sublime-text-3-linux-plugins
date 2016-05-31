@@ -16,51 +16,51 @@ Redhat based (Fedora, CentOS, Redhat, RHEL):
 sudo yum install subversion git
 ```
 
-## NodeJS for JSHint
-Using repo from [Node Source](https://github.com/nodesource/distributions) is recommended.
-
-```bash
-# Using Ubuntu
-curl -sL https://deb.nodesource.com/setup_4.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
-
 ## Install
 ```bash
 git clone https://github.com/charliebr30/sublime-text-3-linux-plugins.git ~/.config/sublime-text-3
 ```
 
 # Pre-installed plugins (major)
-- Sublime Linter
-- Sublime Code Intel
+- All Autocomplete
 - Anaconda
-- AangularJS
-- JSHint
-- DocBlockr
-- Auto Docstring
+- AngularJS
+- Asterisk Config
+- AutoDocstring
+- AutoFileName
 - AutoPEP8
-- Indent XML
-- HTML, CSS, JS Beautify
-- Lorem Ipsum
-- Seti\_UI
-- Seti\_UX
-- SFTP
-- SVN (subversion is required)
-- Git (git is required)
-- Git Gutter
-- VCS Gutter
-- AllAutocomplete
-- Markdown (and a bunch of related plugins)
-- View in Browser
-- Sidebar Enhancement
+- Bootstrap 3 Snippets
+- Boxy Theme
+- BracketHighlighter
 - Clickable URLs
+- DocBlockr
+- EditorConfig
 - Emmet
+- Flask Completions
+- Git
+- HTML-CSS-JS Prettify
+- HTML5
+- Indent XML
+- JavaScript Completions
+- JSHint Gutter
+- Logstash Syntax Highlighting
+- MarkdownEditing
+- nginx
+- Package Control
+- PlainTasks
+- Python Breakpoints
+- Sass
+- SFTP
+- ShellScriptImproved
+- SideBarEnhancements
+- SSH Config
 - Sublimerge Pro
-- VN IME
-- SublimeREPL
-- Spacegrey theme/colorscheme
-- Material theme/colorscheme
-- and alot more...
+- SVN
+- TodoReview
+- TypeScript
+- VCS Gutter
+- View In Browser
+- Vn Ime
 
 Thank for using this plugin set. Enjoy your happy coding!
 

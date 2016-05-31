@@ -2770,9 +2770,25 @@
 			"command_palette":
 			{
 				"height": 286.0,
-				"last_filter": "procl",
+				"last_filter": "insta",
 				"selected_items":
 				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"packagecontrol",
+						"Package Control: List Packages"
+					],
 					[
 						"procl",
 						"Project: Close"
@@ -2784,14 +2800,6 @@
 					[
 						"inden",
 						"Indent JSON"
-					],
-					[
-						"install",
-						"Package Control: Install Package"
-					],
-					[
-						"remove",
-						"Package Control: Remove Package"
 					],
 					[
 						"",
@@ -3276,14 +3284,6 @@
 					[
 						"save",
 						"File: Save All"
-					],
-					[
-						"prorefresh",
-						"Project: Refresh Folders"
-					],
-					[
-						"filesae",
-						"File: Search Files"
 					]
 				],
 				"width": 399.0
@@ -3308,6 +3308,8 @@
 			},
 			"file_history":
 			[
+				"/home/charlie/.config/sublime-text-3/README.md",
+				"/home/charlie/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
 				"/home/charlie/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
 				"/home/charlie/Documents/projects/soc/trunk/source/socapi/socapi/api/v1_1/metadata.py",
 				"/home/charlie/Documents/projects/soc/trunk/source/socapi/socapi/exceptions.py",
@@ -3433,9 +3435,7 @@
 				"/home/charlie/Downloads/ticket",
 				"/home/charlie/Documents/sublime/sms-frontend.sublime-project",
 				"/home/charlie/Documents/projects/soc/trunk/source/idm-frontend-v2/app/logs/info.log",
-				"/home/charlie/Documents/projects/soc/trunk/source/idm-frontend-v2/app/static/bower_components/angular-animate/.bower.json",
-				"/home/charlie/Documents/projects/soc/trunk/source/idm-frontend-v2/CHANGELOG.md",
-				"/home/charlie/Documents/projects/soc/trunk/source/idm-frontend-v2/app/static/js/config.router.js"
+				"/home/charlie/Documents/projects/soc/trunk/source/idm-frontend-v2/app/static/bower_components/angular-animate/.bower.json"
 			],
 			"find":
 			{
@@ -3669,6 +3669,11 @@
 					"sheets":
 					[
 					]
+				},
+				{
+					"sheets":
+					[
+					]
 				}
 			],
 			"incremental_find":
@@ -3688,11 +3693,18 @@
 						0,
 						1,
 						1
+					],
+					[
+						1,
+						0,
+						2,
+						1
 					]
 				],
 				"cols":
 				[
 					0.0,
+					0.5,
 					1.0
 				],
 				"rows":
